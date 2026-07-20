@@ -66,7 +66,7 @@ Om een ​​consistente toon te behouden als u de modi wijzigt of uitbreidt:
 |---------|----------------------------|
 | Job posting | Vacature |
 | Application | Sollicitatie |
-| Sollicitatiebrief | Sollicitatiebrief |
+| Cover letter | Sollicitatiebrief |
 | Resume / CV | Cv |
 | Salary | Salaris |
 | Compensation | Beloning / arbeidsvoorwaardenpakket |

@@ -35,7 +35,7 @@ Alleen de onderstaande bestanden mogen worden gebruikt voor kandidaatgerichte in
 
 ---
 
-## North Star - Doelrollen
+## North Star -- Doelrollen
 
 De vaardigheid behandelt ALLE doelrollen met dezelfde zorg. Geen enkele is primair of secundair; elk is een succes als de beloning en de vooruitzichten op vooruitgang aanwezig zijn:
 
@@ -160,8 +160,8 @@ Nederland en België gebruiken deels dezelfde taal, maar hebben verschillende ar
 - Vrije velden: geef expliciet tijdoverlap en beschikbaarheid aan
 
 **In de evaluaties (score):**
-- Externe dimensie voor hybride buiten uw land: Score **3,0** (niet 1,0)
-- Scoor alleen 1,0 als er expliciet in het vacature staat "verplichte aanwezigheid 4-5 dagen/week, geen uitzonderingen"
+- Externe dimensie voor hybride buiten uw land: Score **3.0** (niet 1.0)
+- Scoor alleen 1.0 als er expliciet in het vacature staat "verplichte aanwezigheid 4-5 dagen/week, geen uitzonderingen"
 
 ### Prioriteit voor tijd tot vacature
 

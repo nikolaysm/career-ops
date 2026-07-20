@@ -1,4 +1,4 @@
-# Modus: pipeline - URL-inbox (tweede brein)
+# Modus: pipeline -- URL-inbox (tweede brein)
 
 Processen bieden URL's aan die zijn verzameld in `data/pipeline.md`. De kandidaat voegt URL's toe wanneer hij maar wil en voert vervolgens `/career-ops pipeline` uit om ze allemaal in één keer te verwerken.
 
@@ -29,8 +29,8 @@ Processen bieden URL's aan die zijn verzameld in `data/pipeline.md`. De kandidaa
 - [!] https://private.url/job -- Fout: inloggen vereist
 
 ## Verwerkt
-- [x] #143 | https://jobs.example.com/posting/789 | Acme SAS | AI PM | 4,2/5 | PDF ja
-- [x] #144 | https://boards.greenhouse.io/xyz/jobs/012 | BigCo | SA | 2,1/5 | PDF nee
+- [x] #143 | https://jobs.example.com/posting/789 | Acme SAS | AI PM | 4.2/5 | PDF ja
+- [x] #144 | https://boards.greenhouse.io/xyz/jobs/012 | BigCo | SA | 2.1/5 | PDF nee
 ```
 
 > Opmerking: Sectiekoppen kunnen in EN ("Pending"/"Processed"), ES ("Pendientes"/"Procesadas"), DE ("Offen"/"Verarbeitet"), FR ("En attente"/"Traitees") of NL ("In afwachting"/"Verwerkt") zijn. Lees flexibel en blijf bij het schrijven trouw aan de bestaande stijl.

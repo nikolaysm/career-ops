@@ -20,7 +20,7 @@ Tabel met:
 - Teamgrootte (indien vermeld)
 - TL;DR in 1 zin
 
-## Blok B - Match met CV
+## Blok B -- Match met CV
 
 Lees `cv.md`. Maak een tabel waarin elke voorwaarde van de vacature wordt weergegeven op de exacte regels van het CV.
 
@@ -105,7 +105,7 @@ Sla de volledige evaluatie op in `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
 
 - `{###}` = volgend volgnummer (3 cijfers, nullen opgevuld). Om het atomair toe te wijzen en racecondities te vermijden, zou je `node reserve-report-num.mjs` uitvoeren om het nummer te reserveren (stdout retourneert `{###}`), het rapport schrijven en vervolgens `node reserve-report-num.mjs --release {###}` uitvoeren om de sentinel vrij te geven.
 - `{company-slug}` = bedrijfsnaam in kleine letters, zonder spaties (gebruik koppeltekens)
-- `{JJJJ-MM-DD}` = huidige datum
+- `{YYYY-MM-DD}` = huidige datum
 
 **Rapportformaat:**
 
@@ -139,7 +139,7 @@ Sla de volledige evaluatie op in `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
 (volledige inhoud van blok F)
 
 ## G) Conceptantwoorden voor de sollicitatie
-(alleen bij score >= 4,5 -- conceptantwoorden voor het sollicitatieformulier)
+(alleen bij score >= 4.5 -- conceptantwoorden voor het sollicitatieformulier)
 
 ---
 
@@ -155,7 +155,7 @@ Sla de volledige evaluatie op in `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
 - Bedrijf
 - Rol
 - Score: wedstrijdgemiddelde (1-5)
-- Status: `Geëvalueerd`
+- Status: `Evaluated`
 - PDF: nee (of ja als de auto-pipeline een PDF heeft gegenereerd)
 - Rapport: relatieve link naar het rapportbestand (bijvoorbeeld: `[001](reports/001-company-2026-01-01.md)`)
 

@@ -1,4 +1,4 @@
-# Modus: solliciteren - Live assistent voor sollicitatieformulieren
+# Modus: solliciteren -- Live assistent voor sollicitatieformulieren
 
 Interactieve modus voor wanneer de kandidaat een sollicitatieformulier in Chrome invult. Leest wat er op het scherm staat, laadt context uit de vorige vacature-evaluatie en genereert gepersonaliseerde antwoorden voor elke vraag op het formulier.
 
@@ -61,7 +61,7 @@ Classificeer elke vraag:
 
 ## Stap 5 -- Genereer de antwoorden
 
-**Scorecontrole:** Als het geladen rapport lager dan 4,0/5 scoort, raad de kandidaat nadrukkelijk af om te solliciteren en stop vóór het genereren van antwoorden. Ga alleen verder nadat de kandidaat expliciet aangeeft de aanbeveling om een specifieke reden te willen negeren; zonder die expliciete bevestiging worden geen antwoorden gegenereerd. Bij een score van 4,0/5 of hoger gaat de normale werkstroom verder.
+**Scorecontrole:** Als het geladen rapport lager dan 4.0/5 scoort, raad de kandidaat nadrukkelijk af om te solliciteren en stop vóór het genereren van antwoorden. Ga alleen verder nadat de kandidaat expliciet aangeeft de aanbeveling om een specifieke reden te willen negeren; zonder die expliciete bevestiging worden geen antwoorden gegenereerd. Bij een score van 4.0/5 of hoger gaat de normale werkstroom verder.
 
 Construeer voor elke vraag het antwoord volgens dit diagram:
 
@@ -83,7 +83,7 @@ Construeer voor elke vraag het antwoord volgens dit diagram:
 ```text
 ## Antwoorden voor [Bedrijf] -- [Functie]
 
-Basis: Rapport #NNN | Score: X,X/5 | Archetype: [type]
+Basis: Rapport #NNN | Score: X.X/5 | Archetype: [type]
 
 ---
 
