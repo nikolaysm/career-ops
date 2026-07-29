@@ -7,7 +7,7 @@ import {
   isFatalCodexStderr,
   parseClaudeEvent,
   parseCodexEvent,
-} from "./src/lib/run-cli-support.mjs";
+} from "../../src/lib/run-cli-support.mjs";
 
 test("Codex agent message becomes dashboard text", () => {
   const event = parseCodexEvent(JSON.stringify({

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { companyPresentation, companySearchText } from "./src/lib/company-presentation.mjs";
+import { companyPresentation, companySearchText } from "../../src/lib/company-presentation.mjs";
 
 test("confidential employer retains agency attribution without promoting it to employer", () => {
   const presentation = companyPresentation({ company: "?", via: "Example Staffing Agency" });

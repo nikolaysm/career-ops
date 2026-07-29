@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { spawnHeadlessCli } from "./src/lib/spawn-cli.mjs";
+import { spawnHeadlessCli } from "../../src/lib/spawn-cli.mjs";
 
 test("spawnHeadlessCli closes stdin so a headless CLI can start", async () => {
   const script = [
