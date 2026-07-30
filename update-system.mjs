@@ -365,6 +365,10 @@ const USER_PATHS = [
   'plugins.lock',
   '.claude/settings.json',
   '.claude/hooks/',
+  // Local-parser scripts are user-supplied by design — docs/local-parser-cookbook.md:
+  // "career-ops does not bundle company-specific parser scripts; users bring their own
+  // script and point portals.yml at it." An update must never overwrite one.
+  'scripts/parsers/',
 ];
 
 function parseVersionFile(raw) {

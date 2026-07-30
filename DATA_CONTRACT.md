@@ -44,6 +44,7 @@ These files contain your personal data, customizations, and work product. Update
 | `reports/*` | Your evaluation reports |
 | `output/*` | Your generated PDFs |
 | `jds/*` | Your saved job descriptions |
+| `scripts/parsers/*` | Your own local-parser scripts, referenced by `portals.yml`'s `parser.script`. Per `docs/local-parser-cookbook.md`, career-ops does not bundle company-specific parsers — you bring your own, so an update must never overwrite them |
 
 ## System Layer (safe to auto-update)
 
