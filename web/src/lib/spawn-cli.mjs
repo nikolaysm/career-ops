@@ -1,7 +1,7 @@
 import { spawn } from "node:child_process";
 
 // Plain .mjs (same pattern as tracker-table.mjs/clean-chips.mjs) so
-// test-cli-stdin.mjs can import it directly under Node. Import it with the
+// tests/lib/spawn-cli.test.mjs can import it directly under Node. Import it with the
 // .mjs extension included (e.g. "@/lib/spawn-cli.mjs") — unlike .ts files,
 // which TypeScript resolves without an extension, ESM specifiers for plain
 // JS modules must be fully specified.

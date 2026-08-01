@@ -1,3 +1,9 @@
+// Tests for the per-CLI stream parsers and run bookkeeping helpers, using
+// Node's built-in test runner. Imports directly from run-cli-support.mjs (the
+// single source of truth) so the test and production code can never drift.
+//
+// Run:  node --test tests/lib/run-cli-support.test.mjs
+
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
@@ -7,7 +13,7 @@ import {
   isFatalCodexStderr,
   parseClaudeEvent,
   parseCodexEvent,
-} from "./src/lib/run-cli-support.mjs";
+} from "../../src/lib/run-cli-support.mjs";
 
 test("Codex agent message becomes dashboard text", () => {
   const event = parseCodexEvent(JSON.stringify({

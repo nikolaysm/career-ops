@@ -1,5 +1,5 @@
 // Plain .mjs (same pattern as tracker-table.mjs/clean-chips.mjs/spawn-cli.mjs)
-// so test-run-cli-support.mjs can import it directly under Node. Import it
+// so tests/lib/run-cli-support.test.mjs can import it directly under Node. Import it
 // with the .mjs extension included (e.g. "@/lib/run-cli-support.mjs" or
 // "./run-cli-support.mjs") — unlike .ts files, which TypeScript resolves
 // without an extension, ESM specifiers for plain JS modules must be fully

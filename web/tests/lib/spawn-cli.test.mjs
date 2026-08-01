@@ -1,6 +1,12 @@
+// Tests for spawnHeadlessCli() using Node's built-in test runner.
+// Imports directly from spawn-cli.mjs (the single source of truth) so the
+// test and production code can never drift out of sync.
+//
+// Run:  node --test tests/lib/spawn-cli.test.mjs
+
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { spawnHeadlessCli } from "./src/lib/spawn-cli.mjs";
+import { spawnHeadlessCli } from "../../src/lib/spawn-cli.mjs";
 
 test("spawnHeadlessCli closes stdin so a headless CLI can start", async () => {
   const script = [
